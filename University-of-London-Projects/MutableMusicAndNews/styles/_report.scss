@@ -1,0 +1,38 @@
+#scroll-report{
+
+    color: lightgrey;
+    #main-body{
+        width: 100%;
+       
+        padding: 50px;
+
+        h2{
+            margin: 40px;
+            color: rgb(192,65,26);
+        }
+
+        p{
+            font-size: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        a{
+            margin: 20px;
+            color: rgb(82, 126, 163);
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        #line-break{
+            height: 3px;
+            background: white;
+            opacity: 0.1;
+            width : 100%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+    
+}

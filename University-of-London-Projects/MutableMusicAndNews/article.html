@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Article | Mutable: Music & News</title>
+    <link rel="icon" type="image/x-icon" href="./icon.svg" />
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Mutable - Music & News: is a South African alternative music news platform that aims to enrich the industry and keep people informed.">
+    <meta name="keywords" content="South Africa Music Alternative News Events">
+    <meta name="author" content="Mutable Music and news">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--Bootstrap import-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome import (icons)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--Handlebars import-->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <!--///////////////--NAVIGATION SECTION--///////////////-->
+        <div class="nav-container">
+            <nav>
+
+                <!--Logo-->
+                <div id="logo">
+                    <a href="./index.html"> <img src="./images/Branding/SVG/logo.svg"
+                            alt="Mutable music and news logo"></a>
+                </div>
+
+                <!--Horizontal nav-bar (desktop)-->
+                <ul id="nav-list">
+                    <div id="report-link" class="nav-button">
+                        <li> <a href="./report.html" id="nav-home">REPORT</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                    </div>
+                    <div class="nav-button" id="nav-focus">
+                        <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                    </div>
+
+                    <!--Drop-down nav-bar (Mobile)-->
+                    <div id="nav-list-mobile-container" class="nav-list-mobile-container-inactive">
+
+                        <!--Burger Button-->
+                        <div id="nav-drop-down-mobile-icon" class="nav-drop-down-mobile">
+                            <div class="nav-drop-down-line" id="line1"></div>
+                            <div class="nav-drop-down-line" id="line2"></div>
+                            <div class="nav-drop-down-line" id="line3"></div>
+                        </div>
+
+                        <!--Drop-down menu-->
+                        <div id="nav-list-mobile">
+                            <ul id="nav-list-2">
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                                </div>
+                                <div class="nav-button-mobile" id="nav-focus">
+                                    <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <!--///////////////--MAIN CONTENT--///////////////-->
+        <div class="page">
+            <div id="scroll-article" class="scroll">
+
+                <!--article template (Content intentionally left blank, All content is loaded from a database)-->
+                <article id="article">
+
+                    <!--Header and Image-->
+                    <h1 id="title"></h1>
+                    <div id="article-feature-image-container">
+                        <img src="" alt="" id="article-feature-image">
+                    </div>
+
+                    <!--Information-->
+                    <div class="text-section">
+                        <div id="author-date-div">
+                            <p id="type"></p>
+                            <p id="author-date"></p>
+
+                        </div>
+                        <div class="separator-bar"></div>
+                        <h3 id="sub-title"></h3>
+                        <p id="description"></p>
+                        <iframe id="article-feature-video" src="" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                        <div class="separator-bar"></div>
+
+                        <h4>Follow the band:</h4>
+                        <ul id="social-links">
+                            <li>
+                                <a href="" id="facebook-link"><i class="fab fa-facebook"> </i> Facebook</a>
+                            </li>
+                            <li>
+                                <a href="" id="instagram-link"><i class="fab fa-instagram"> </i> Instagram</a>
+                            </li>
+                            <li>
+                                <a href="" id="youtube-link"><i class="fab fa-youtube"> </i> YouTube</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+        <!--///////////////--FOOTER SECTION--///////////////-->
+        <footer class="footer-container">
+            <div id="footer-container-a">
+
+                <!--Left (Branding/Slogan)-->
+                <div id="branding">
+                    <img src="./images/Branding/SVG/slogan.svg" alt="Footer brand logo">
+                </div>
+
+                <!--Middle (About Us)-->
+                <div id="about-us">
+                    <h3>About us</h3>
+                    <p>Mutable - Music & News: is a South African alternative music news platform that aims to enrich
+                        the industry and keep people informed.</p><br>
+                    <p>Got anything to say!?<br>Fill in a contact form <a href="./contact.html">here</a> or drop us a
+                        mail at</p>
+                    <p id="email">contact@mutablemusicandnews.com</p>
+                </div>
+
+                <!--Right (Follow us)-->
+                <div id="sm-links">
+                    <h3>Follow us</h3>
+                    <div class="social-menu" id="homepage-sm-links">
+                        <!--Icons used from font awesome, (class name is the selected icon) See header file for import-->
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-container-b">
+                <p>© All rights reserved, 2021.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--Main script that handles any code on the website, including populating the article template-->
+    <script type="module" src="./js/data-article.js"></script>
+
+    <!--Script that handles responsive navigation bar behaviour-->
+    <script src="./js/data-nav-bar.js" type="module"></script>
+</body>
+
+</html>

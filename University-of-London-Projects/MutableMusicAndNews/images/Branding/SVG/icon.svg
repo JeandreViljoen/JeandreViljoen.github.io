@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-size: 139.6px;
+        fill: #c34227;
+        font-family: LegendaireFREE, Legendaire FREE;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-3 {
+        font-size: 102.73px;
+        fill: #d1d3d4;
+        font-family: Birdrockers, Birdrockers;
+        letter-spacing: 0.03em;
+      }
+    </style>
+  </defs>
+  <title>Artboard 2</title>
+  <circle class="cls-1" cx="56.13" cy="57.97" r="55.22"/>
+  <text class="cls-2" transform="translate(17.74 99.27)">M</text>
+  <text class="cls-3" transform="translate(56.84 112.13) scale(0.78 1)">#</text>
+</svg>

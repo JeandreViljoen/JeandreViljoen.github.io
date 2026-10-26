@@ -1,0 +1,354 @@
+/*-------------------------ARTICLE LIST CARDS STYLING-------------------------*/
+@media screen and (min-width: 800px){
+
+#scroll-release-list{
+
+    #scroll-b{
+
+        #release-card-0{
+            margin-bottom: 50px !important;
+        }
+        
+        /*Card styling*/
+        .item{
+
+            display: flex;
+            border-radius: 20px;
+            background:linear-gradient( #323232,#212120);
+            overflow: hidden;
+            transition: ease-in-out ;
+            transition: 0.3s;
+            box-shadow: 0px 5px 5px  #070707;
+            //max-height: 400px;
+            margin: 5%;
+            margin-bottom: 0px;
+            margin-top: 50px;
+            min-height:300px;
+            background-color: aliceblue;
+            width:90%;
+
+            #release-card-0{
+                margin-bottom: 50px !important;
+            }
+            
+
+            #title{
+                color: rgb(195, 65, 26);
+                margin-bottom: 20px;
+            }
+
+            #description{
+                padding-left: 20px;
+            }
+
+            #author{
+                color: grey;
+                padding-left: 20px;
+                
+            }
+
+            #type{
+                color: grey;
+                padding-left: 20px;
+                
+            }
+
+            img{
+                width:30%;
+                object-fit: cover;
+                
+                
+            }
+            
+            #text-info{
+                padding: 20px;
+                width: 70%;
+                color: white;
+                
+                
+            }
+
+            #date{
+                display: flex;
+                color: grey;
+                justify-content: flex-end;
+                padding:0;
+                margin:0;
+            }
+
+            #author-type{
+                display: flex; 
+                justify-content: space-between;
+            }
+
+            .line-break{
+                width: 100%;
+                height: 2px;
+                margin: 0;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                opacity: 0.4;
+                background: #070707;
+            }
+            
+        }
+
+        /*card animation*/
+        .item:hover  {
+            transform: scale(1.05);
+            //transition-timing-function: ease-in;
+            transition: 0.1s;
+            text-decoration: none;
+            color:white;
+            box-shadow: 0px 7px 10px  #070707;
+            cursor: pointer;
+            
+
+        }
+
+        .item:active{
+            transform: scale(1.03);
+            //transition-timing-function: ease-in;
+            transition: 0.1s;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 799px){
+
+    #scroll-release-list{
+    
+        #scroll-b{
+    
+            #release-card-0{
+                margin-bottom: 50px !important;
+            }
+            
+            /*Card styling*/
+            .item{
+    
+                display: flex;
+                border-radius: 20px;
+                background:linear-gradient( #323232,#212120);
+                overflow: hidden;
+                transition: ease-in-out ;
+                transition: 0.3s;
+                box-shadow: 0px 5px 5px  #070707;
+                //max-height: 400px;
+                margin: 1%;
+                margin-bottom: 0px;
+                margin-top: 50px;
+                min-height:300px;
+                background-color: aliceblue;
+                width:98%;
+    
+                #release-card-0{
+                    margin-bottom: 50px !important;
+                }
+                
+    
+                #title{
+                    color: rgb(195, 65, 26);
+                    margin-bottom: 20px;
+                }
+    
+                #description{
+                    padding-left: 20px;
+                }
+    
+                #author{
+                    color: grey;
+                    padding-left: 20px;
+                    
+                }
+    
+                #type{
+                    color: grey;
+                    padding-left: 20px;
+                    
+                }
+    
+                img{
+                    width:30%;
+                    object-fit: cover;
+                    
+                    
+                }
+                
+                #text-info{
+                    padding: 20px;
+                    width: 70%;
+                    color: white;
+                    
+                    
+                }
+    
+                #date{
+                    display: flex;
+                    color: grey;
+                    justify-content: flex-end;
+                    padding:0;
+                    margin:0;
+                }
+    
+                #author-type{
+                    display: flex; 
+                    justify-content: space-between;
+                }
+    
+                .line-break{
+                    width: 100%;
+                    height: 2px;
+                    margin: 0;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    opacity: 0.4;
+                    background: #070707;
+                }
+                
+            }
+    
+            /*card animation*/
+            .item:hover  {
+                transform: scale(1.05);
+                //transition-timing-function: ease-in;
+                transition: 0.1s;
+                text-decoration: none;
+                color:white;
+                box-shadow: 0px 7px 10px  #070707;
+                cursor: pointer;
+                
+    
+            }
+    
+            .item:active{
+                transform: scale(1.03);
+                //transition-timing-function: ease-in;
+                transition: 0.1s;
+            }
+        }
+    }
+    }
+
+
+    @media screen and (max-width: 600px){
+
+        #scroll-release-list{
+        
+            #scroll-b{
+        
+                #release-card-0{
+                    margin-bottom: 50px !important;
+                }
+                
+                /*Card styling*/
+                .item{
+        
+                    display: flex;
+                    border-radius: 20px;
+                    background:linear-gradient( #323232,#212120);
+                    overflow: hidden;
+                    transition: ease-in-out ;
+                    transition: 0.3s;
+                    box-shadow: 0px 5px 5px  #070707;
+                    //max-height: 400px;
+                    margin: 2%;
+                    margin-bottom: 0px;
+                    margin-top: 50px;
+                    min-height:300px;
+                    background-color: aliceblue;
+                    width:96%;
+        
+                    #release-card-0{
+                        margin-bottom: 50px !important;
+                    }
+                    
+        
+                    #title{
+                        color: rgb(195, 65, 26);
+                        margin-bottom: 20px;
+                        font-size: 20px;
+                    }
+        
+                    #description{
+                        padding-left: 20px;
+                        font-size: 17px;
+                    }
+        
+                    #author{
+                        color: grey;
+                        padding-left: 20px;
+                        font-size: 15px;
+                        
+                    }
+        
+                    #type{
+                        color: grey;
+                        padding-left: 20px;
+                        font-size: 15px;
+                        
+                    }
+        
+                    img{
+                        width:30%;
+                        object-fit: cover;
+                        
+                        
+                    }
+                    
+                    #text-info{
+                        padding: 20px;
+                        width: 70%;
+                        color: white;
+                        
+                        
+                    }
+        
+                    #date{
+                        display: flex;
+                        color: grey;
+                        justify-content: flex-end;
+                        padding:0;
+                        margin:0;
+                        font-size: 15px;
+                    }
+        
+                    #author-type{
+                        display: flex; 
+                        justify-content: space-between;
+                    }
+        
+                    .line-break{
+                        width: 100%;
+                        height: 2px;
+                        margin: 0;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        opacity: 0.4;
+                        background: #070707;
+                    }
+                    
+                }
+        
+                /*card animation*/
+                .item:hover  {
+                    transform: scale(1.05);
+                    //transition-timing-function: ease-in;
+                    transition: 0.1s;
+                    text-decoration: none;
+                    color:white;
+                    box-shadow: 0px 7px 10px  #070707;
+                    cursor: pointer;
+                    
+        
+                }
+        
+                .item:active{
+                    transform: scale(1.03);
+                    //transition-timing-function: ease-in;
+                    transition: 0.1s;
+                }
+            }
+        }
+        }

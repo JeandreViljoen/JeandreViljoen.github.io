@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact | Mutable: Music & News</title>
+    <link rel="icon" type="image/x-icon" href="./icon.svg" />
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Mutable - Music & News: is a South African alternative music news platform that aims to enrich the industry and keep people informed.">
+    <meta name="keywords" content="South Africa Music Alternative News Events">
+    <meta name="author" content="Mutable Music and news">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--Bootstrap import-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome import (icons)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--Handlebars import-->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!--///////////////--NAVIGATION SECTION--///////////////-->
+        <div class="nav-container">
+            <nav>
+
+                <!--Logo-->
+                <div id="logo">
+                    <a href="./index.html"> <img src="./images/Branding/SVG/logo.svg"
+                            alt="Mutable music and news logo"></a>
+                </div>
+
+                <!--Horizontal nav-bar (desktop)-->
+                <ul id="nav-list">
+                    <div id="report-link" class="nav-button">
+                        <li> <a href="./report.html" id="nav-home">REPORT</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                    </div>
+                    <div class="nav-button" id="nav-focus">
+                        <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                    </div>
+
+                    <!--Drop-down nav-bar (Mobile)-->
+                    <div id="nav-list-mobile-container" class="nav-list-mobile-container-inactive">
+
+                        <!--Burger Button-->
+                        <div id="nav-drop-down-mobile-icon" class="nav-drop-down-mobile">
+                            <div class="nav-drop-down-line" id="line1"></div>
+                            <div class="nav-drop-down-line" id="line2"></div>
+                            <div class="nav-drop-down-line" id="line3"></div>
+                        </div>
+
+                        <!--Drop-down menu-->
+                        <div id="nav-list-mobile">
+                            <ul id="nav-list-2">
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                                </div>
+                                <div class="nav-button-mobile" id="nav-focus">
+                                    <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!--///////////////--MAIN CONTENT--///////////////-->
+        <div class="page">
+            <div id="scroll-contact" class="scroll">
+
+                <!--Page Title Logo-->
+                <div class="scroll-a">
+                    <img src="./images/Branding/SVG/titles/title-contact.svg" alt="Events Page Header image">
+                </div>
+                <div class="line-break-header-container">
+                    <div class="line-break-header"></div>
+                </div>
+
+                <div id="scroll-b">
+
+                    <!--Form 1 - Enquire -->
+                    <div id="enquire-form" class="contact-form-container">
+                        <div id="enquire-form-title-container" class="form-title-container-inactive">
+                            <h1>Enquire</h1>
+                            <div class="form-drop-down-triangle"></div>
+                        </div>
+                        <div id="enquire-form-element-container" class="form-element-container-inactive">
+                            <h4>We would love to hear from you!<br>Fill in the form below and let us know how we can
+                                help!
+                            </h4>
+                            <div class="line-break"></div>
+
+                            <form action="">
+                                <label for="enquire-name">Name:</label><br>
+                                <input type="text" id="enquire-name" name="enquire-name"><br>
+                                <label for="enquire-email">E-mail Address:</label><br>
+                                <input type="email" id="enquire-email" name="enquire-email"><br>
+                                <label for="enquire-message">Message:</label><br>
+                                <textarea type="text" id="enquire-message" name="enquire-message"></textarea>
+                                <div class="line-break"></div>
+                                <div class="btn-container">
+                                    <button id="enquire-send-btn" class="button">SUBMIT</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!--Form 2 - Music / News Submission -->
+                    <div id="news-form" class="contact-form-container">
+                        <div id="news-form-title-container" class="form-title-container-inactive">
+                            <h1>Music/News Submissions</h1>
+                            <div class="form-drop-down-triangle"></div>
+                        </div>
+
+                        <div id="news-form-element-container" class="form-element-container-inactive">
+
+                            <form action="">
+                                <h4>We take the time to look at all submissions! <br>
+                                    Please enter the submission details using the form below so we can check out and
+                                    cover
+                                    your latest
+                                    music, videos and news.</h4>
+                                <div class="line-break"></div>
+                                <label for="submission-date">Launch Date:</label><br>
+                                <input type="date" id="submission-date"><br>
+                                <div id="type-genre">
+                                    <div id="type">
+                                        <label for="submission-type">Release Type:</label><br>
+                                        <select id=submission-type" name="submission-type">
+                                            <option value="Press">Press</option>
+                                            <option value="Single">Single</option>
+                                            <option value="Video">Video</option>
+                                            <option value="EP">EP</option>
+                                            <option value="Album">Album</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                    <div id="genre">
+                                        <label for="submission-genre">Genre:</label><br>
+                                        <select id=submission-genre" name="submission-genre">
+                                            <option value="Pop">N/A</option>
+                                            <option value="Pop">Pop</option>
+                                            <option value="Commercial">Commercial</option>
+                                            <option value="Indie">Indie</option>
+                                            <option value="Rock">Rock</option>
+                                            <option value="Metal">Metal</option>
+                                            <option value="Electronic">Electronic</option>
+                                            <option value="Instrumental">Instrumental</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <label for="submission-artist">Artist Name:</label><br>
+                                <input type="text" id="submission-artist"><br>
+                                <label for="submission-name">Single / EP / Album / Video Title:</label><br>
+                                <input type="text" id="submission-name"><br>
+                                <label for="submission-press-image">Upload Press Release Image:</label><br>
+                                <input type="file" id="submission-press-image" name="submission-press-image"><br>
+                                <label for="submission-URL">Video or Stream URL:</label><br>
+                                <input type="url" id="submission-URL"><br>
+
+                                <label for="submission-sm-link-FB">Facebook Page URL:</label><br>
+                                <input type="url" id="submission-sm-link-FB"><br>
+                                <label for="submission-sm-link-FB">Instagram Profile URL:</label><br>
+                                <input type="url" id="submission-sm-link-IG"><br>
+                                <label for="submission-sm-link-insta">YouTube Channel URL:</label><br>
+                                <input type="url" id="submission-sm-link-YT"><br>
+                                <label for="submission-email">Contact Email:</label><br>
+                                <input type="email" id="submission-email"><br>
+                                <div class="line-break"></div>
+                                <div class="btn-container">
+                                    <button id="submission-send-btn" class="button">SUBMIT</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!--Form 3 - Event Submission -->
+                    <div id="events-form" class="contact-form-container">
+                        <div id="events-form-title-container" class="form-title-container-inactive">
+                            <h1>Event Submission</h1>
+                            <div class="form-drop-down-triangle"></div>
+                        </div>
+                        <div id="events-form-element-container" class="form-element-container-inactive">
+
+                            <form action="">
+                                <h4>Submit upcoming event details here to feature on the <a
+                                        href="./events.html">EVENTS</a>
+                                    page.
+                                </h4>
+                                <div class="line-break"></div>
+                                <label for="event-title">Event Name:</label><br>
+                                <input type="text" id="event-title"><br>
+                                <label for="event-decription">Event Description:</label><br>
+                                <textarea type="text" id="event-decription" name="event-decription"></textarea>
+                                <div class="line-break"></div>
+                                <label for="event-date">Date / Time:</label><br>
+                                <input type="date" id="event-date"><input type="time" id="event-time"><br>
+                                <label for="event-venue">Venue:</label><br>
+                                <input type="text" id="event-venue"><br>
+                                <label for="event-address">Address:</label><br>
+                                <input type="text" id="event-address"><br>
+                                <label for="event-poster">Upload Event Poster:</label><br>
+                                <input type="file" id="event-poster" name="event-poster"><br>
+                                <label for="event-price">Ticket Price: (ZAR)</label><br>
+                                <input type="number" id="event-price" name="event-price"><br>
+                                <div class="line-break"></div>
+                                <div class="btn-container">
+                                    <button id="event-send-btn" class="button">SUBMIT</button>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--///////////////--FOOTER SECTION--///////////////-->
+        <footer class="footer-container">
+            <div id="footer-container-a">
+
+                <!--Left (Branding/Slogan)-->
+                <div id="branding">
+                    <img src="./images/Branding/SVG/slogan.svg" alt="Footer brand logo">
+                </div>
+
+                <!--Middle (About Us)-->
+                <div id="about-us">
+                    <h3>About us</h3>
+                    <p>Mutable - Music & News: is a South African alternative music news platform that aims to enrich
+                        the industry and keep people informed.</p><br>
+                    <p>Got anything to say!?<br>Fill in a contact form <a href="./contact.html">here</a> or drop us a
+                        mail at</p>
+                    <p id="email">contact@mutablemusicandnews.com</p>
+                </div>
+
+                <!--Right (Follow us)-->
+                <div id="sm-links">
+                    <h3>Follow us</h3>
+                    <div class="social-menu" id="homepage-sm-links">
+                        <!--Icons used from font awesome, (class name is the selected icon) See header file for import-->
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-container-b">
+                <p>© All rights reserved, 2021.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--Main script that handles any code on the website, including form windows logic and inputs-->
+    <script src="./js/data-contact.js" type="module"></script>
+
+    <!--Script that handles responsive navigation bar behaviour-->
+    <script src="./js/data-nav-bar.js" type="module"></script>
+</body>
+
+</html>

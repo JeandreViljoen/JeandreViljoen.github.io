@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "title": "Hands Like Houses Live in Cape Town",
+            "description": "See Hands Like Houses live in Cape Town for the very first time!. Joined by locals best supporting acts. Dont miss this event.",
+            "date": "Sat - 02 March 2019",
+            "time": "7PM - 1AM",
+            "venue": "Mercury Live",
+            "address": "44 Main Street, Zonnebloem CT",
+            "posterURL": "./images/events/HandsLikeHouses.jpg",
+            "posterAlt": "Hands like Houses event poster",
+            "ticketPrice": "ZAR 50.00",
+            "disclaimer": "Alcohol not for sale to persons under the age of 18"
+        },
+        {
+            "title": "JamPacked Productions Presents: Crown The Empire Live In South Africa",
+            "description": "Doors open at 6pm. No early admissions.<br>Randomised line-up with first band on at 7:00pm.<br><br>Support bands:<br><br>- OneDaySky<br>- Climate Control<br>- You, Me and the Harmony<br>- Man As Machine<br><br>TICKETS AVAILABLE NOW!<br>Early Bird - SOLD OUT!<br>Phase 1 - SOLD OUT!<br>Phase 2 - SOLD OUT!<br>Phase 3 - SOLD OUT!<br>Phase 3 - R315. 00<br>VIP - SOLD OUT!<br>VVIP - R1 250.00",
+            "date": "Sat - 28 February 2020",
+            "time": "7PM - 1AM",
+            "venue": "Mercury Live",
+            "address": "44 Main Street, Zonnebloem CT",
+            "posterURL": "./images/events/crown-intext.jpg",
+            "posterAlt": "Crown The Eppire Event Poster",
+            "ticketPrice": "ZAR 150.00",
+            "disclaimer": "Strictly no under 18s. Original ID requested upon entry.<br>Right of admission reserved.<br>NO outside food or alcohol permitted.<br>NO illegal substances or dangerous items permitted."
+        },
+        {
+            "title": "Disorderly Twins presents: 'The 27 CLUB'",
+            "description": "Back by popular demand:<br>(Not really... 🙃 We just had to wait for C-word regulations to pull this event off safely)<br><br><br>Disorderly Twins in association with @Set For The Sky brings you yet another incredibly mediocre sequel to the lives of Alex and JD. Only this time, the twins are tasked with fighting the existential dread of getting old AND surviving the 27 club.So here’s a good excuse to dust off that suit/ dress, make yourself snazzy (Only if you want to) and join us for the premiere of the twins’ 27th year on this flat earth. <br><br><br>Discounted food and adult refreshments will be available during the premiere event.<br>Date: Saturday, June 5th 2021.<br>Time: [TBC]<br>Place: @Antonio's Pizza Place<br>Dress Code: “Formal” – (Highly optional, the boys will be in suits/character, but rather dress warm, honestly.)",
+            "date": "Sat - 06 June 2021",
+            "time": "3PM - 10PM",
+            "venue": "Antonios Resturaunt",
+            "address": "04 Antonios Street, Gordons Bay",
+            "posterURL": "./images/events/27clubPoster.jpg",
+            "posterAlt": "The 27 Club event poster",
+            "ticketPrice": "FREE",
+            "disclaimer": "Alcohol not for sale to persons under the age of 18. Mask required on entry. Temperatures will be taken according to W.H.O. Covid-19 safety regulations."
+        },
+        {
+            "title": "RAMFEST: Cape Town Festival",
+            "description": "RAMFEST 2020 COMING IN HOT ON 13 MARCH 2020.<br>SAVE THE DATE, THIS IS GOING TO BE HEAVY AF.<br>VENUE: HILLCREST QUARRY<br>DANGER GEVAAR INGOZI: NO UNDER 18s<br>It is with great excitement that we welcome The Black Dahlia Murder (USA) to South Africa for Ramfest 2020. Herewith your line up for the 13th of March 2020:<br><br>▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴▴<br>RAM Stage<br>17:00 - MARENE<br>17:45 - The Valley<br>18:30 - Stoker<br>19:15 - Peasant<br>20:00 - Metallica Tribute<br>21:15 - Facing the Gallows<br>22:15 - Van Coke Kartel<br>23:30 - The Black Dahlia Murder<br><br>M4A Stage:<br>17:30 - CREATING THE GODFORM<br>18:15 - Thread of Omen<br>19:00 - Indika Black<br>19:45 - Human Nebula<br>20:45 - Ohgod<br>21:45 - Rhakshah<br>22:45 - Ill System",
+            "date": "Sat - 13 March 2020",
+            "time": "3PM - 10PM",
+            "venue": "Hillcrest Quarry CT",
+            "address": "Tygerberg, Valley Road, DurbanVille",
+            "posterURL": "./images/events/ramfest.jpg",
+            "posterAlt": "Ramfest music Festival event poster",
+            "ticketPrice": "ZAR 300.00",
+            "disclaimer": "Alcohol not for sale to persons under the age of 18. Mask required on entry. Temperatures will be taken according to W.H.O. Covid-19 safety regulations."
+        },
+        {
+            "title": "Broadcast the Outcast : Set For The Sky",
+            "description": "Set For The Sky will be rolling out the big guns at one of Cape Town's best venues, Ragazzi Live Bar, alongside Elevated Motion, Instead Of Sane and The Kill Heavy.<br><br>Presented by YUM Live<br>OH YES!! IT'S FREE!!<br><br>Bands:<br>||||||||||||||||||||||||||||||||<br>Set For The Sky<br>Elevated Motion<br>Instead Of Sane<br>Kill Heavy<br>||||||||||||||||||||||||||||||||<br><br>Doors Open: 19:00<br>Where: Ragazzi<br>Cost: R 00,00<br>Bring: all your friends and their pretty siblings",
+            "date": "Sat - 06 Aug 2021",
+            "time": "7PM - 11PM",
+            "venue": "Ragazzi Live",
+            "address": "68 Bree Street, Cape Town",
+            "posterURL": "./images/events/broadcast.jpg",
+            "posterAlt": "Broadcast The Outcast event poster",
+            "ticketPrice": "FREE",
+            "disclaimer": "Alcohol not for sale to persons under the age of 18. Mask required on entry. Temperatures will be taken according to W.H.O. Covid-19 safety regulations."
+        }
+    ]
+}

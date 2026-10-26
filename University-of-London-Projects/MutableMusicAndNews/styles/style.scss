@@ -1,0 +1,204 @@
+/*-------------------------GLOBAL STYLING-------------------------*/
+
+/*Global base settings*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+/*basic background set-up*/
+body{
+  background: radial-gradient(rgb(20, 20, 20), rgb(0, 0, 0));
+  background-image: url(../images/background_mirrored.jpg);
+  //display: flex;
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  width: 100vw;
+  overflow-x: hidden;
+  //min-height: 100vh;
+  background-repeat: repeat-y;
+}
+
+p{
+  font-size: 20px;
+}
+
+main{
+    min-height:100vh;
+    z-index: 0;
+}
+
+
+/*Scroll bar settings*/
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #212120;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(195,65,26);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(126, 40, 14);
+  }
+
+/*Center Scroll bar settings (global)*/
+.page{
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+    .scroll 
+    {
+        width: 1080px;
+        //min-height: calc(20vh) ;
+        background: linear-gradient( #0c0d0f,#080808);
+        box-shadow: 0 0 50px black;
+        min-height: calc(100vh - 75px - 235px)
+    }
+}
+
+/*Center Scroll bar settings (global)*/
+@media screen and (max-width: 1080px){
+  .page{
+    
+    //min-height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  
+    .scroll 
+    {
+        width: 100%;
+        background: linear-gradient( #0c0d0f,#080808);
+        box-shadow: 0 0 50px black;
+        min-height: calc(100vh - 75px - 500px)
+    }
+  }
+}
+
+/*global logo on top of pages styling*/
+.scroll-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //max-height: 250px;
+  
+  img{
+      margin: 25px;
+      //width:400px;
+      max-height: 250px;
+      width: 100%;
+  }
+}
+
+
+.line-break-header-container{
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .line-break-header{
+      height: 5px;
+      background-color: rgb(20, 20, 22);
+      margin-top: 0px;
+      margin-bottom: 0px;
+      width: 90%;
+
+  }
+}
+
+/*FOOTER - Social Section - Button styling*/
+/*Easy WebCode, 'Social Media Button Hover Effect', 2021*/
+/*Taken from https://codepen.io/easywebcode/pen/qBBvNEO*/
+/*and then further modified by me*/
+
+/*copied code starts here:*/
+.social-menu ul {
+  //padding-left: 100px;
+  //padding-right: 100px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
+}
+.social-menu ul li .fab {
+  color: #000000;
+  font-size: 35px;
+  line-height: 50px;
+  transition: .3s;
+}
+.social-menu ul li .fab:hover {
+  color: #ffffff;
+}
+
+.social-menu ul li .far {
+  color: #000000;
+  font-size: 35px;
+  line-height: 50px;
+  transition: .3s;
+}
+.social-menu ul li .far:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgb(117, 117, 117);
+  text-align: center;
+  transition: 0.3s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li a:active {
+  transform: scale(1.15);
+  transition: 0.1s;
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #e94a0b;
+}
+/*copied code ends here*/
+
+@import "navbar";
+@import "home";
+@import "article-list";
+@import "events";
+@import "article";
+@import "contact";
+@import "footer";
+@import "report";

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Library imports-->
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.sound.js"></script>
+  <script src="lib/p5.dom.js"></script>
+
+  <!--Tools imports-->
+  <script src="./Tools/utilities.js"> </script>
+  <script src="./Tools/gui.js"> </script>
+  <script src="./Components/customSlider.js"> </script>
+  <script src="./Components/menuComponent.js"> </script>
+
+  <script src="sketch.js"></script>
+  <script src="./Components/scrub.js"></script>
+  <script src="./Components/playbackButton.js"></script>
+  <script src="./Components/nextButton.js"></script>
+  <script src="./Components/stopButton.js"></script>
+  <script src="./Components/backButton.js"></script>
+  <script src="./Components/shuffleButton.js"></script>
+  <script src="./Components/controlsAndInput.js"></script>
+
+  <!--Visualisations imports-->
+  <script src="./Visualisations/visualisations.js"></script>
+
+  <script src="./Visualisations/spectrumNew.js"></script>
+  <script src="./Visualisations/eye.js"></script>
+  <script src="./Visualisations/blobVis.js"></script>
+  <script src="./Visualisations/spectrograph.js"></script>
+  <script src="./Visualisations/mirrorSpectrum.js"></script>
+  <script src="./Visualisations/amplitudeScroller.js"></script>
+  <script src="./Visualisations/codeFall.js"></script>
+
+  <style>
+    /*Styling for screen-size file dropzone*/
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #songUploadFileReader {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+    }
+
+    .drop-zone {
+      width: 100vw;
+      height: 100vh;
+      opacity: 0%;
+      position: absolute;
+      background-color: white;
+    }
+
+    .drop-zone-input {
+      display: none;
+
+    }
+
+    .drop-zone-highlight {
+      opacity: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <!--Drop-zone div-->
+  <div class="drop-zone">
+    <input type="file" multiple name="myFile" class="drop-zone-input">
+  </div>
+</body>
+
+</html>

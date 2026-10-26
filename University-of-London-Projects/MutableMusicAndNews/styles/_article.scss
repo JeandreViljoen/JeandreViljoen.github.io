@@ -1,0 +1,86 @@
+/*-------------------------ARTICLE PAGE STYLING-------------------------*/
+
+.page #scroll-article{
+    color: lightgrey;
+
+    .text-section{
+        padding: 30px;
+    }
+
+    #article-feature-image{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    #article-feature-image-container{
+        box-shadow: 0px 5px 5px rgb(13,13, 13);
+    }
+
+    #article-feature-video{
+        width: 100%;
+        min-height: 400px;
+        object-fit: contain;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+    
+    #title{
+        display: flex;
+        color: rgb(195, 65, 26);
+        padding: 15px;
+        padding-left: 30px;
+        justify-content: center;
+    }
+
+    #author-date-div{
+        display:flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: rgb(80, 80, 80);
+        
+    }
+
+    #sub-title{
+        color: rgb(195, 65, 26);
+        margin-bottom: 40px;
+    }
+
+    #description{
+        color: rgb(189, 189, 189);
+        margin-bottom: 40px;
+
+        img{
+           width: 100%;
+        }
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    #social-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+
+        li{
+            margin-left: 20px;
+            margin-right: 20px;
+
+            a{
+                color: rgb(82, 126, 163);
+            }
+        }
+    }
+
+    .separator-bar{
+        height: 2px;
+        background-color: rgb(21, 21, 20);
+        margin-bottom :20px;
+        
+    }   
+}

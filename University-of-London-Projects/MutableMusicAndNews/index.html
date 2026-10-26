@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home | Mutable: Music & News</title>
+    <link rel="icon" type="image/x-icon" href="./icon.svg" />
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Mutable - Music & News: is a South African alternative music news platform that aims to enrich the industry and keep people informed.">
+    <meta name="keywords" content="South Africa Music Alternative News Events">
+    <meta name="author" content="Mutable Music and news">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--Bootstrap import-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font Awesome import (icons)-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!--Handlebars import-->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+    <!--Image Carousel Library-->
+    <link rel="stylesheet" href="node_modules/blueimp-gallery/css/blueimp-gallery.min.css" />
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <!--///////////////--NAVIGATION SECTION--///////////////-->
+        <div class="nav-container">
+            <nav>
+
+                <!--Logo-->
+                <div id="logo">
+                    <a href="./index.html"> <img src="./images/Branding/SVG/logo.svg"
+                            alt="Mutable music and news logo"></a>
+                </div>
+
+                <!--Horizontal nav-bar (desktop)-->
+                <ul id="nav-list">
+                    <div id="report-link" class="nav-button">
+                        <li> <a href="./report.html" id="nav-home">REPORT</a></li>
+                    </div>
+                    <div class="nav-button" id="nav-focus">
+                        <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                    </div>
+                    <div class="nav-button">
+                        <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                    </div>
+
+                    <!--Drop-down nav-bar (Mobile)-->
+                    <div id="nav-list-mobile-container" class="nav-list-mobile-container-inactive">
+
+                        <!--Burger Button-->
+                        <div id="nav-drop-down-mobile-icon" class="nav-drop-down-mobile">
+                            <div class="nav-drop-down-line" id="line1"></div>
+                            <div class="nav-drop-down-line" id="line2"></div>
+                            <div class="nav-drop-down-line" id="line3"></div>
+                        </div>
+
+                        <!--Drop-down menu-->
+                        <div id="nav-list-mobile">
+                            <ul id="nav-list-2">
+                                <div class="nav-button-mobile" id="nav-focus">
+                                    <li> <a href="./index.html" id="nav-home">HOME</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./article-list.html" id="nav-releases">LATEST NEWS</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./events.html" id="nav-events">EVENTS</a></li>
+                                </div>
+                                <div class="nav-button-mobile">
+                                    <li> <a href="./contact.html" id="nav-contact">CONTACT</a></li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!--///////////////--MAIN CONTENT--///////////////-->
+        <div class="page">
+            <div id="scroll-home" class="scroll">
+
+
+
+                <!--CAROUSEL SECTION-->
+                <!--<div id="carousel-button"></div>-->
+                <div id="blueimp-gallery-carousel"
+                    class="blueimp-gallery blueimp-gallery-contain blueimp-gallery-carousel "
+                    aria-label="image carousel">
+                    <div class="slides" aria-live="off"></div>
+                    <h3 class="title"></h3>
+                    <a class="prev" aria-controls="blueimp-gallery-carousel" aria-label="previous slide"></a>
+                    <a class="next" aria-controls="blueimp-gallery-carousel" aria-label="next slide"></a>
+                    <a class="play-pause" aria-controls="blueimp-gallery-carousel" aria-label="play slideshow"
+                        aria-pressed="true" role="button"></a>
+                    <ol class="indicator"></ol>
+                </div>
+
+                <!--Values intentionally left blank (script will populate everything from a database)-->
+                <div id="links">
+                    <a id="carousel-01-a" href="" title="carousel-image-01">
+                        <img id="carousel-01-img" src="" alt="carousel-image-01" />
+                    </a>
+                    <a id="carousel-02-a" href="" title="carousel-image-02">
+                        <img id="carousel-02-img" src="" alt="carousel-image-02" />
+                    </a>
+                    <a id="carousel-03-a" href="" title="carousel-image-03">
+                        <img id="carousel-03-img" src="" alt="carousel-image-03" />
+                    </a>
+                </div>
+
+                <!--NEWS SECTION-->
+                <div id="homepage-news-section">
+
+                    <div id="homepage-new-title" class="homepage-title">
+                        <a href="./article-list.html">
+                            <img src="./images/Branding/SVG/titles/title-new.svg" alt="what is new title image">
+                        </a>
+                    </div>
+                    <div id="homepage-news-section-text">
+                        <h1>Check out our latest news and exclusives <a href=""> here</a>!</h1>
+                    </div>
+                </div>
+                <div class="line-break-container">
+                    <div class="line-break"></div>
+                </div>
+
+                <!--HOT SECTION (Excessive <div> tags for the use of specific formatting)-->
+                <div id="homepage-hot-section">
+                    <div id="homepage-hot-section-container">
+
+                        <!--Header Image-->
+                        <div id="homepage-hot-title" class="homepage-title">
+                            <a href="./article.html">
+                                <img src="./images/Branding/SVG/titles/title-hot.svg" alt="Hot Right now title image">
+                            </a>
+                        </div>
+
+                        <!--Latest article formatted in card-->
+                        <div id="homepage-hot-section-feature">
+                            <a href="./article.html" id="homepage-hot-feature-container">
+                                <img id="homepage-hot-feature-img" src="" alt="hot right now feature image">
+
+                                <div id="homepage-hot-feature-text-container">
+                                    <div class="line-break"></div>
+                                    <h3 id="homepage-hot-feature-text-title"></h3>
+                                    <div class="line-break"></div>
+                                    <div id="homepage-hot-feature-text-meta">
+                                        <div id="homepage-hot-feature-text-artist"></div>
+                                        <div id="homepage-hot-feature-text-genre"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-break-container">
+                    <div class="line-break"></div>
+                </div>
+
+                <!--EVENTS SECTION-->
+                <div id="homepage-event-section">
+
+                    <!--Header Image-->
+                    <div id="homepage-events-title" class="homepage-title">
+                        <a href="./events.html">
+                            <img src="./images/Branding/SVG/titles/title-events.svg" alt="Upcoming events title image">
+                        </a>
+                    </div>
+
+                    <!--Interactable cards-->
+                    <div id="event-showcase">
+                        <a href='./events.html' id="event-showcase-01-container"
+                            class="event-showcase-container-inactive">
+                            <img id="event-showcase-01" src="" alt="">
+                        </a>
+                        <a href='./events.html' id="event-showcase-02-container"
+                            class="event-showcase-container-inactive">
+                            <img id="event-showcase-02" src="" alt="">
+                        </a>
+                        <a href='./events.html' id="event-showcase-03-container"
+                            class="event-showcase-container-inactive">
+                            <img id="event-showcase-03" src="" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="line-break-container">
+                    <div class="line-break"></div>
+                </div>
+
+                <!--SUBMISSION SECTION-->
+                <div id="homepage-contact-section">
+                    <div id="homepage-contact-section-container">
+
+                        <!--Header Image-->
+                        <div id="homepage-contact-title" class="homepage-title">
+                            <a href="./contact.html">
+                                <img src="./images/Branding/SVG/titles/title-submit.svg"
+                                    alt="Submit news and music title image">
+                            </a>
+                        </div>
+
+                        <!--Text Section-->
+                        <div id="homepage-contact-text">
+                            <h2>Have any upcoming News, Releases or Events?</h2>
+                            <p>Please let us know <a href="./contact.html">here</a>.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="line-break-container">
+                    <div class="line-break"></div>
+                </div>
+
+                <!--SOCIALS SECTION-->
+                <div id="homepage-socials-section">
+
+                    <!--Header Image-->
+                    <div id="homepage-contact-title" class="homepage-title">
+                        <a>
+                            <img src="./images/Branding/SVG/titles/title-connect.svg" alt="Connect with us title image">
+                        </a>
+                    </div>
+
+                    <!--Link buttons-->
+                    <div class="social-menu" id="homepage-sm-links">
+                        <!--Icons used from font awesome, (class name is the selected icon) See header file for import-->
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--///////////////--FOOTER SECTION--///////////////-->
+        <footer class="footer-container">
+            <div id="footer-container-a">
+
+                <!--Left (Branding/Slogan)-->
+                <div id="branding">
+                    <img src="./images/Branding/SVG/slogan.svg" alt="Footer brand logo">
+                </div>
+
+                <!--Middle (About Us)-->
+                <div id="about-us">
+                    <h3>About us</h3>
+                    <p>Mutable - Music & News: is a South African alternative music news platform that aims to enrich
+                        the industry and keep people informed.</p><br>
+                    <p>Got anything to say!?<br>Fill in a contact form <a href="./contact.html">here</a> or drop us a
+                        mail at</p>
+                    <p id="email">contact@mutablemusicandnews.com</p>
+                </div>
+
+                <!--Right (Follow us)-->
+                <div id="sm-links">
+                    <h3>Follow us</h3>
+                    <div class="social-menu" id="footer-sm-links">
+                        <!--Icons used from font awesome, (class name is the selected icon) See header file for import-->
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="far fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-container-b">
+                <p>© All rights reserved, 2021.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!--Script that handles the image carousel-->
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+
+    <!--Main script that handles any code on the website. Including populating sections from a database-->
+    <script src="./js/data-home.js" type="module"></script>
+
+    <!--Script that handles responsive navigation bar behaviour-->
+    <script src="./js/data-nav-bar.js" type="module"></script>
+
+    <!--Inititialises page variables and stores them in session storage so that all pages has access to them-->
+    <script>sessionStorage.setItem('activePageID', 0);
+        sessionStorage.setItem('articleIndex', 0)</script>
+</body>
+
+</html>

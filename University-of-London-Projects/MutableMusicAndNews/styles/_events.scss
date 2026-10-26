@@ -1,0 +1,385 @@
+
+/*-------------------------EVENTS PAGE STYLING-------------------------*/
+@media screen and (min-width: 801px){
+#scroll-b{
+
+   //min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   .event-card{
+       width: 100%;
+   }
+
+    .event-container{
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background:linear-gradient( #070707);
+        color: grey;
+        overflow: hidden;
+        box-shadow: 0px 5px 5px  #070707;
+        margin-right: 0;
+        margin: 50px;
+        transition: ease-in-out;
+            transition: 0.3s;
+
+        #text-info{
+            padding : 25px;
+        }
+    
+        #title{
+            color: rgb(195, 65, 26);
+            text-align: center;
+        }
+
+        #description{
+            color:rgb(189, 189, 189);
+            font-size: large;
+        }
+
+        .event-details
+        {
+            display: flex;
+            justify-content: space-between;
+
+            #date-time{
+                display: flex;
+                justify-content: space-between;
+                color: rgb(195, 65, 26);
+                width: 35%;
+
+                #spacer{
+                    background-color: grey;
+                    width:4px;
+                    height : 80%;
+                }
+            }
+
+            #address{
+                color: rgb(195, 65, 26);
+            }
+
+            #venue{
+                color: rgb(195, 65, 26);
+            }
+
+            #price{
+                color: rgb(195, 65, 26);
+            }
+
+        }
+
+        .line-break{
+            height: 2px;
+            background-color: rgb(21, 21, 20);
+            margin-bottom :20px;
+            margin-top :20px;
+            
+        }  
+
+        #disclaimer{
+            text-align: center;
+        }
+
+        /*Button styling and animation*/
+
+        #buy-btn-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #buy-btn{
+            background: linear-gradient(rgb(195, 65, 26),rgb(90, 22, 2));
+            width:50%;
+            font-size: x-large;
+
+            transition: ease-in-out ;
+            transition: 0.2s;
+            border-radius: 5px;
+
+            padding: 10px;
+            margin :10px;
+            border:none;
+            font-weight: bold;     
+           
+        }
+
+        #buy-btn:hover{
+            width:60%;
+            background: linear-gradient(rgb(238, 80, 32),rgb(90, 22, 2));
+
+        }
+
+        #buy-btn:click{
+            transform: scale(0.9);
+        }
+    
+    }
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+    #scroll-b{
+    
+       //min-height: 100vh;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+       .event-card{
+           width: 100%;
+       }
+    
+        .event-container{
+            display: flex;
+            flex-direction: column;
+            border-radius: 20px;
+            background:linear-gradient( #070707);
+            color: grey;
+            overflow: hidden;
+            box-shadow: 0px 5px 5px  #070707;
+            margin-right: 0;
+            margin: 2%;
+            transition: ease-in-out;
+            transition: 0.3s;
+    
+            #text-info{
+                padding : 25px;
+            }
+        
+            #title{
+                color: rgb(195, 65, 26);
+                text-align: center;
+            }
+    
+            #description{
+                color:rgb(189, 189, 189);
+                font-size: large;
+            }
+    
+            .event-details
+            {
+                display: flex;
+                justify-content: space-between;
+    
+                #date-time{
+                    display: flex;
+                    justify-content: space-between;
+                    color: rgb(195, 65, 26);
+                    width: 35%;
+    
+                    #spacer{
+                        background-color: grey;
+                        width:4px;
+                        height : 80%;
+                    }
+                }
+    
+                #address{
+                    color: rgb(195, 65, 26);
+                }
+    
+                #venue{
+                    color: rgb(195, 65, 26);
+                }
+    
+                #price{
+                    color: rgb(195, 65, 26);
+                }
+    
+            }
+    
+            .line-break{
+                height: 2px;
+                background-color: rgb(21, 21, 20);
+                margin-bottom :20px;
+                margin-top :20px;
+                
+            }  
+    
+            #disclaimer{
+                text-align: center;
+            }
+    
+            /*Button styling and animation*/
+    
+            #buy-btn-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            #buy-btn{
+                background: linear-gradient(rgb(195, 65, 26),rgb(90, 22, 2));
+                width:50%;
+                font-size: x-large;
+    
+                transition: ease-in-out ;
+                transition: 0.2s;
+                border-radius: 5px;
+    
+                padding: 10px;
+                margin :10px;
+                border:none;
+                font-weight: bold;     
+               
+            }
+    
+            #buy-btn:hover{
+                width:60%;
+                background: linear-gradient(rgb(238, 80, 32),rgb(90, 22, 2));
+    
+            }
+    
+            #buy-btn:click{
+                transform: scale(0.9);
+            }
+        
+        }
+    }
+    
+    }
+
+
+
+
+
+    @media screen and (max-width: 600px){
+        #scroll-b{
+        
+           //min-height: 100vh;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           
+           .event-card{
+               width: 100%;
+           }
+        
+            .event-container{
+                display: flex;
+                flex-direction: column;
+                border-radius: 20px;
+                background:linear-gradient( #070707);
+                color: grey;
+                overflow: hidden;
+                box-shadow: 0px 5px 5px  #070707;
+                margin-right: 0;
+                margin: 2%;
+                font-size: 16px;
+
+                h4{
+                    font-size: 16px;
+                }
+        
+                #text-info{
+                    padding : 25px;
+                    font-size: 16px;
+                }
+            
+                #title{
+                    color: rgb(195, 65, 26);
+                    text-align: center;
+                    font-size: 20px;
+                }
+        
+                #description{
+                    color:rgb(189, 189, 189);
+                    font-size: 15px;
+                }
+        
+                .event-details
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    
+        
+                    #date-time{
+                        display: flex;
+                        justify-content: space-between;
+                        color: rgb(195, 65, 26);
+                        width: 50%;
+                       
+        
+                        #spacer{
+                            background-color: grey;
+                            width:4px;
+                            height : 80%;
+                        }
+                    }
+        
+                    #address{
+                        color: rgb(195, 65, 26);
+                        
+                    }
+        
+                    #venue{
+                        color: rgb(195, 65, 26);
+                                           }
+        
+                    #price{
+                        color: rgb(195, 65, 26);
+                        
+                    }
+        
+                }
+        
+                .line-break{
+                    height: 2px;
+                    background-color: rgb(21, 21, 20);
+                    margin-bottom :20px;
+                    margin-top :20px;
+                    
+                }  
+        
+                #disclaimer{
+                    text-align: center;
+                    font-size: 16px;
+                }
+        
+                /*Button styling and animation*/
+        
+                #buy-btn-container{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                #buy-btn{
+                    background: linear-gradient(rgb(195, 65, 26),rgb(90, 22, 2));
+                    width:50%;
+                    font-size: medium;
+        
+                    transition: ease-in-out ;
+                    transition: 0.2s;
+                    border-radius: 5px;
+        
+                    padding: 10px;
+                    margin :10px;
+                    border:none;
+                    font-weight: bold;     
+                   
+                }
+        
+                #buy-btn:hover{
+                    width:60%;
+                    background: linear-gradient(rgb(238, 80, 32),rgb(90, 22, 2));
+        
+                }
+        
+                #buy-btn:click{
+                    transform: scale(0.9);
+                }
+            
+            }
+        }
+        
+        }
